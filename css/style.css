@@ -1,0 +1,74 @@
+.card-body {
+  padding: 0 !important;
+}
+.card img {
+  border: solid 3px lightgray;
+}
+.turn-on {
+  color: #176A73 !important;
+}
+.turn-off {
+  color: red !important;
+}
+.pointable {
+  cursor: pointer;
+}
+.location {
+  font-size: 1.2rem;
+}
+a.email {
+  color: #e0e0e0;
+  font-weight: bold;
+}
+a:hover {
+  color: #232b2b;
+  background: #F2522E;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+.btn {
+  font-size: 0.75rem;
+}
+footer {
+  padding-left: 5px;
+}
+
+.present {
+  padding-right: 5px;
+}
+.main-project {
+  margin-bottom: 20px;
+}
+
+h3.proj-content {
+  margin: 2rem 0;
+}
+
+/* .card {
+  margin: 0 .5rem;
+  justify-content: space-around !important;
+} */
+
+.card-body {
+  color: white;
+  background-color: #414a4c;
+}
+.card-title,
+.card-text {
+  padding: 0 1rem;
+}
+
+.blog-links a , .resume-links a{
+  color: #e0e0e0;
+  font-weight: bold;
+}
+.blog-links a:hover, .resume-links a:hover {
+  color: #232b2b;
+  background: #e0e0e0;
+}
+
+.resume-section h3 , .resume-section .subheading{
+  font-size: medium;
+}

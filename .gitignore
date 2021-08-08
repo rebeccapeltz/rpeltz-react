@@ -1,0 +1,9 @@
+node_modules
+bower_components
+.tmp
+.sass-cache
+nbproject
+coverage
+.idea/
+.DS_Store
+.vscode

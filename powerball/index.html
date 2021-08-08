@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Powerball Pick</title>
+    <style>
+        body {
+          background-color:mediumturquoise;
+        }
+        button {
+            display: block;
+            min-width: 200px;
+            height: 3rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            background-color: yellow;
+            margin: 0 auto;
+            font-weight: bold;
+        }
+
+        main {
+            text-align: center;
+        }
+        #svg-container {
+          width: 100%;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Powerball Picker</h1>
+        <button id="d3click">Click on this text to update !</button>
+        <div id="svg-container">
+            <div id="fsid" class="fs">
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
